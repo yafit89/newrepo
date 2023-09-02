@@ -1,6 +1,3 @@
-#!/bin/bash# package updates
-sudo yum check-update
-sudo yum update # apache installation, enabling and status check
-sudo yum -y install httpd
-sudo systemctl start httpd
-sudo systemctl enable httpd
+#!/bin/bash
+#add fix to exercise1 here
+sudo ip route del 208.86.224.90
