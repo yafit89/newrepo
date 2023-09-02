@@ -1,2 +1,3 @@
 #!/bin/bash# package updates
-sudo sed -i '13d' /etc/hosts
+sudo yum check-update
+sudo yum update # apache installation, enabling and status check
