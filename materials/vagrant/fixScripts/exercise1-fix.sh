@@ -1,2 +1,2 @@
-#!/bin/bash
-#add fix to exercise1 here
+#!/bin/bash# package updates
+sudo yum check-update
