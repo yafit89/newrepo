@@ -1,2 +1,3 @@
-#!/bin/bash
-#add fix to exercise2 here
+#!/bin/bash# package updates
+sudo yum check-update
+sudo yum update # apache installation, enabling and status check
