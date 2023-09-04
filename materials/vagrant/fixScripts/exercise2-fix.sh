@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo sed -i '13d' /etc/hosts
+sudo sed -ie '/www.ascii-art.de/d' /etc/hosts
