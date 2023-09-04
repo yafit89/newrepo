@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo sed -ie '/www.ascii-art.de/d' /etc/hosts
+sudo sed -i "/www.ascii-art.de/d" /etc/hosts
